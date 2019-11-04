@@ -1,0 +1,1808 @@
+2019-10-24 23:35:56 [::1][-][b52ogk12bhm1gei3v7djigun27][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\yii2\views\site\say.php in C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('say', Array, Object(app\controllers\SiteController))
+#2 C:\xampp\htdocs\yii2\controllers\SiteController.php(20): yii\base\Controller->render('say', Array)
+#3 [internal function]: app\controllers\SiteController->actionSay('\xD0\x9F\xD1\x80\xD0\xB8\xD0\xB2\xD0\xB5\xD1\x82 \xD0\xBC...')
+#4 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('say', Array)
+#7 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/say', Array)
+#8 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2019-10-24 23:35:55 [::1][-][b52ogk12bhm1gei3v7djigun27][info][application] $_GET = [
+    'r' => 'site/say'
+    'message' => 'Привет мир'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'b52ogk12bhm1gei3v7djigun27'
+    '_csrf' => '316ce2773bd33340d4ff3a6f646a0649a3a73d0012f06a2015f9f70d8dfbf76aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"dxw0s-GQnivSHsop8nE-b-IGJZCR9n7J\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=b52ogk12bhm1gei3v7djigun27; _csrf=316ce2773bd33340d4ff3a6f646a0649a3a73d0012f06a2015f9f70d8dfbf76aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dxw0s-GQnivSHsop8nE-b-IGJZCR9n7J%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '55237'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsay&message=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82+%D0%BC%D0%B8%D1%80'
+    'REQUEST_URI' => '/yii2/web/index.php?r=site%2Fsay&message=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82+%D0%BC%D0%B8%D1%80'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1571952954.945
+    'REQUEST_TIME' => 1571952954
+]
+2019-11-04 22:29:46 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "yii2/web/". in C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('yii2/web/', Array)
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-11-04 22:29:44 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '64134'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572902984.815
+    'REQUEST_TIME' => 1572902984
+]
+2019-11-04 22:30:02 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "yii2/web/". in C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('yii2/web/', Array)
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-11-04 22:30:02 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '64159'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903002.665
+    'REQUEST_TIME' => 1572903002
+]
+2019-11-04 22:30:08 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "yii2/web/". in C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('yii2/web/', Array)
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2019-11-04 22:30:08 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '64170'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903008.109
+    'REQUEST_TIME' => 1572903008
+]
+2019-11-04 22:42:39 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in C:\xampp\htdocs\yii2\views\site\index.php:35
+Stack trace:
+#0 C:\xampp\htdocs\yii2\views\site\index.php(35): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\yii2\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2019-11-04 22:42:39 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '65470'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903759.544
+    'REQUEST_TIME' => 1572903759
+]
+2019-11-04 22:43:03 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in C:\xampp\htdocs\yii2\views\site\index.php:10
+Stack trace:
+#0 C:\xampp\htdocs\yii2\views\site\index.php(10): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\yii2\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2019-11-04 22:43:03 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '65503'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903783.046
+    'REQUEST_TIME' => 1572903783
+]
+2019-11-04 22:43:17 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in C:\xampp\htdocs\yii2\views\site\index.php:9
+Stack trace:
+#0 C:\xampp\htdocs\yii2\views\site\index.php(9): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\yii2\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2019-11-04 22:43:17 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '65526'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903796.977
+    'REQUEST_TIME' => 1572903796
+]
+2019-11-04 22:43:59 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][ParseError] ParseError: syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\yii2\views\site\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#2 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#3 C:\xampp\htdocs\yii2\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2019-11-04 22:43:59 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49192'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903839.274
+    'REQUEST_TIME' => 1572903839
+]
+2019-11-04 22:44:00 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][ParseError] ParseError: syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\yii2\views\site\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#2 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#3 C:\xampp\htdocs\yii2\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2019-11-04 22:44:00 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49193'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903840.617
+    'REQUEST_TIME' => 1572903840
+]
+2019-11-04 22:44:05 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:64] yii\base\ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\yii2\views\site\index.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-11-04 22:44:05 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49197'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903845.797
+    'REQUEST_TIME' => 1572903845
+]
+2019-11-04 22:44:31 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][ParseError] ParseError: syntax error, unexpected '?', expecting end of file in C:\xampp\htdocs\yii2\views\site\index.php:17
+Stack trace:
+#0 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#2 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#3 C:\xampp\htdocs\yii2\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2019-11-04 22:44:30 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49233'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903870.978
+    'REQUEST_TIME' => 1572903870
+]
+2019-11-04 22:44:37 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:64] yii\base\ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\yii2\views\site\index.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-11-04 22:44:37 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49240'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903877.132
+    'REQUEST_TIME' => 1572903877
+]
+2019-11-04 22:44:38 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:64] yii\base\ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\yii2\views\site\index.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-11-04 22:44:38 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49242'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903878.307
+    'REQUEST_TIME' => 1572903878
+]
+2019-11-04 22:45:07 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:64] yii\base\ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\yii2\views\site\index.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-11-04 22:45:07 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49275'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903907.848
+    'REQUEST_TIME' => 1572903907
+]
+2019-11-04 22:45:09 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:64] yii\base\ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\yii2\views\site\index.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-11-04 22:45:09 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49279'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903908.98
+    'REQUEST_TIME' => 1572903908
+]
+2019-11-04 22:45:24 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:64] yii\base\ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\yii2\views\site\index.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-11-04 22:45:24 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49305'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903924.74
+    'REQUEST_TIME' => 1572903924
+]
+2019-11-04 22:45:35 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:64] yii\base\ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\yii2\views\site\index.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-11-04 22:45:35 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49316'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903935.927
+    'REQUEST_TIME' => 1572903935
+]
+2019-11-04 22:45:37 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:64] yii\base\ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\yii2\views\site\index.php:9
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2019-11-04 22:45:37 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49318'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903937.3
+    'REQUEST_TIME' => 1572903937
+]
+2019-11-04 22:45:47 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:4096] yii\base\ErrorException: Object of class yii\bootstrap\ActiveForm could not be converted to string in C:\xampp\htdocs\yii2\views\site\index.php:9
+Stack trace:
+#0 C:\xampp\htdocs\yii2\views\site\index.php(9): yii\base\ErrorHandler->handleError(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\yii2\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2019-11-04 22:45:47 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49336'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903947.677
+    'REQUEST_TIME' => 1572903947
+]
+2019-11-04 22:45:49 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:4096] yii\base\ErrorException: Object of class yii\bootstrap\ActiveForm could not be converted to string in C:\xampp\htdocs\yii2\views\site\index.php:9
+Stack trace:
+#0 C:\xampp\htdocs\yii2\views\site\index.php(9): yii\base\ErrorHandler->handleError(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\yii2\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2019-11-04 22:45:49 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49339'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903949.385
+    'REQUEST_TIME' => 1572903949
+]
+2019-11-04 22:46:20 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: form in C:\xampp\htdocs\yii2\views\site\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\yii2\views\site\index.php(8): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\yii2\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2019-11-04 22:46:20 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49382'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903980.72
+    'REQUEST_TIME' => 1572903980
+]
+2019-11-04 22:46:32 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: form in C:\xampp\htdocs\yii2\views\site\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\yii2\views\site\index.php(8): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\yii2\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2019-11-04 22:46:32 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49394'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903992.712
+    'REQUEST_TIME' => 1572903992
+]
+2019-11-04 22:46:33 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: form in C:\xampp\htdocs\yii2\views\site\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\yii2\views\site\index.php(8): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\yii2\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2019-11-04 22:46:33 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49396'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572903993.848
+    'REQUEST_TIME' => 1572903993
+]
+2019-11-04 22:47:20 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in C:\xampp\htdocs\yii2\views\site\index.php:8
+Stack trace:
+#0 C:\xampp\htdocs\yii2\views\site\index.php(8): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\yii2\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#6 [internal function]: app\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2019-11-04 22:47:20 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49448'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572904039.544
+    'REQUEST_TIME' => 1572904039
+]
+2019-11-04 22:47:27 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][error][yii\base\ErrorException:256] yii\base\ErrorException: Exception 'Error' with message 'Call to a member function getAttributeLabel() on string' 
+
+in C:\xampp\htdocs\yii2\vendor\yiisoft\yii2-bootstrap\src\ActiveField.php:411
+
+Stack trace:
+#0 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2-bootstrap\src\ActiveField.php(176): yii\bootstrap\ActiveField->renderLabelParts()
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\widgets\ActiveField.php(176): yii\bootstrap\ActiveField->render()
+#2 C:\xampp\htdocs\yii2\views\site\index.php(8): yii\widgets\ActiveField->__toString()
+#3 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#6 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#7 C:\xampp\htdocs\yii2\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#8 [internal function]: app\controllers\SiteController->actionIndex()
+#9 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#12 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#13 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#15 {main} in C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\ErrorHandler.php:317
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception 'Erro...', 'C:\\xampp\\htdocs...', 317, Array)
+#1 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\ErrorHandler.php(317): trigger_error('Exception 'Erro...', 256)
+#2 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\widgets\ActiveField.php(181): yii\base\ErrorHandler::convertExceptionToError(Object(Error))
+#3 C:\xampp\htdocs\yii2\views\site\index.php(8): yii\widgets\ActiveField->__toString()
+#4 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', '[]')
+#6 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#7 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#8 C:\xampp\htdocs\yii2\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#9 [internal function]: app\controllers\SiteController->actionIndex()
+#10 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#13 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#14 C:\xampp\htdocs\yii2\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\yii2\web\index.php(12): yii\base\Application->run()
+#16 {main}
+    in C:\xampp\htdocs\yii2\views\site\index.php:8
+    in C:\xampp\htdocs\yii2\controllers\SiteController.php:65
+2019-11-04 22:47:26 [127.0.0.1][-][1vptv9bo16i8pfvrs2ff60q2ce][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '1vptv9bo16i8pfvrs2ff60q2ce'
+    '_csrf' => '50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=1vptv9bo16i8pfvrs2ff60q2ce; _csrf=50f0daee714198939beaa9353e18ec537aaee3b64e105408ceafa37807720bdca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pLAiyczYYsS-Fhyd11s_3jFQ1WcW9djR%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Timofey\\gcc\\bin;C:\\Users\\Timofey\\gcc\\libexec\\gcc\\x86_64-pc-mingw32\\6.2.0;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Acer\\Remote Files\\;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\bin;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib32;C:\\Program Files (x86)\\Simply Fortran 2\\mingw-w64\\x86_64-w64-mingw32\\lib64;C:\\MSDEV\\BIN;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\130\\DTS\\Binn\\;C:\\Program Files (x86)\\PuTTY\\;C:\\Program Files (x86)\\Brackets\\command;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Timofey\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\gfortran\\bin;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.1\\bin;;C:\\Users\\Timofey\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/yii2/web/index.php'
+    'REMOTE_PORT' => '49459'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2/web/'
+    'SCRIPT_NAME' => '/yii2/web/index.php'
+    'PHP_SELF' => '/yii2/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1572904046.933
+    'REQUEST_TIME' => 1572904046
+]
